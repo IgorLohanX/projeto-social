@@ -41,5 +41,25 @@ iframe#tela {
     left: 22px;
     width: 268px;
     height: 472px;
-    box-shadow: outset 5px 5px 13px 0px black;
+}
+
+section#redes-sociais {
+    text-align: right; /* lado que está os botões */
+}
+
+
+section#redes-sociais img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.445);
+    box-sizing: border-box; /* a borda vai fazer parte da caixa */
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.644);
+    transform: translate(-3px, -3px); /* vai fazer o botão dar uma leve deslocada */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.620);
+    transition: .6s, border 1.3s;
 }
